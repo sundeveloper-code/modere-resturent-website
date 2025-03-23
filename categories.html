@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - Modern Library</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <h1>Modern Library</h1>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html" class="active">Categories</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <button id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content categories-page">
+        <h1 class="page-title">Book Categories</h1>
+        
+        <!-- Category Grid -->
+        <div class="category-grid">
+            <!-- Fiction Category -->
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h2>Fiction</h2>
+                <ul class="subcategories">
+                    <li><a href="#">Classics</a></li>
+                    <li><a href="#">Contemporary</a></li>
+                    <li><a href="#">Science Fiction</a></li>
+                    <li><a href="#">Fantasy</a></li>
+                </ul>
+                <a href="#" class="category-link">Browse Fiction</a>
+            </div>
+
+            <!-- Non-Fiction Category -->
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-pen-fancy"></i>
+                </div>
+                <h2>Non-Fiction</h2>
+                <ul class="subcategories">
+                    <li><a href="#">Biography</a></li>
+                    <li><a href="#">Self-Help</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">History</a></li>
+                </ul>
+                <a href="#" class="category-link">Browse Non-Fiction</a>
+            </div>
+
+            <!-- Science Category -->
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <h2>Science</h2>
+                <ul class="subcategories">
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Biology</a></li>
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Astronomy</a></li>
+                </ul>
+                <a href="#" class="category-link">Browse Science</a>
+            </div>
+
+            <!-- Mystery Category -->
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h2>Mystery</h2>
+                <ul class="subcategories">
+                    <li><a href="#">Thriller</a></li>
+                    <li><a href="#">Crime</a></li>
+                    <li><a href="#">Detective</a></li>
+                    <li><a href="#">Suspense</a></li>
+                </ul>
+                <a href="#" class="category-link">Browse Mystery</a>
+            </div>
+        </div>
+
+        <!-- Featured Books Section -->
+        <section class="featured-books">
+            <h2>Featured Books</h2>
+            <div class="books-grid">
+                <!-- Featured books will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Modern Library. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

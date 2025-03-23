@@ -1,0 +1,12 @@
+{
+  "name": "restaurant-website",
+  "version": "1.0.0",
+  "description": "A modern restaurant website with admin dashboard",
+  "main": "js/imageSetup.js",
+  "scripts": {
+    "setup-images": "node js/imageSetup.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.9"
+  }
+} 
